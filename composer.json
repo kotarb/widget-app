@@ -3,6 +3,7 @@
     "license": "MIT",
     "require": {
         "php": ">=5.3.3",
+        "facebook/php-sdk-v4" : "~5.0",
         "dreamcommerce/shop-appstore-lib": "0.2.*"
     },
     "autoload": {
