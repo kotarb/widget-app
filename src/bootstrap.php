@@ -15,7 +15,7 @@ spl_autoload_register(function($class){
 });
 
 // composer autoloader - patched automatically
-//require 'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 $config = require __DIR__. '/Config.php';
 

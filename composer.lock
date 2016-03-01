@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "02f3607f022e69cf6c8fa45042386dc9",
-    "content-hash": "4e18c32ba99adf95be8b86076ea61cca",
+    "hash": "3948de6def9ac6e85b49c1c19cf2a3d3",
+    "content-hash": "05d7203ffa8696ed6c8e5ef64c620634",
     "packages": [
         {
             "name": "dreamcommerce/shop-appstore-lib",
-            "version": "0.2.9",
+            "version": "0.2.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamcommerce/shop-appstore-lib.git",
-                "reference": "2d2209bfeb75e2c6b029f9433fa3f00730716e88"
+                "reference": "e408c0e68285acb99153453285ac62dad2c06154"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamcommerce/shop-appstore-lib/zipball/2d2209bfeb75e2c6b029f9433fa3f00730716e88",
-                "reference": "2d2209bfeb75e2c6b029f9433fa3f00730716e88",
+                "url": "https://api.github.com/repos/dreamcommerce/shop-appstore-lib/zipball/e408c0e68285acb99153453285ac62dad2c06154",
+                "reference": "e408c0e68285acb99153453285ac62dad2c06154",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,62 @@
                 }
             ],
             "description": "SDK for Dreamcommerce based shops REST-API",
-            "time": "2015-10-16 13:05:04"
+            "time": "2016-02-19 14:24:31"
+        },
+        {
+            "name": "facebook/php-sdk-v4",
+            "version": "5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
+                "reference": "2c42fb3002953355f12d3c6e8003a9fd5af563d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/2c42fb3002953355f12d3c6e8003a9fd5af563d9",
+                "reference": "2c42fb3002953355f12d3c6e8003a9fd5af563d9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2015-11-19 21:07:36"
         },
         {
             "name": "psr/log",
